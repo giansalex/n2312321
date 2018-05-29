@@ -1,0 +1,6 @@
+autoMerge:
+  - target: EPD
+    source: EPD
+  - target: QAS
+    source: QAS
+
