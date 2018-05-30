@@ -4,3 +4,8 @@ autoMerge:
   - target: QAS
     source: QAS
 
+restrict:
+  - target: master
+    source:
+      - PPR
+      - QAS
