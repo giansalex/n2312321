@@ -8,4 +8,5 @@ restrict:
   - target: master
     source:
       - PPR
-      - QAS
+      - PPRFIX
+    close: true
