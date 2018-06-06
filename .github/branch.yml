@@ -1,12 +1,14 @@
 autoMerge:
   - target: EPD
     source: EPD
-  - target: QAS
-    source: QAS
 
 restrict:
   - target: master
     source:
-      - PPR
-      - PPRFIX
+      - ppr
+      - pprfix
     close: true
+    fork: false
+  - target: qas
+    source: qas
+    fork: true
